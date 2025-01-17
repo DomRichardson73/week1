@@ -3,7 +3,7 @@
 <head>
 <style>
 body {
-    background-image: url(https://www.elegantthemes.com/blog/wp-content/uploads/2013/09/bg-7-full.jpg);
+    background-image: url(grey.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -15,18 +15,28 @@ body {
     <img src="https://th.bing.com/th?id=OIP.nqz47AVaK35tZbJydhLw9wHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" width="100" height="100">
 </header>
 <main>
-<h2>Rtx 5070: The Big Picture</h2>
-<img src="https://computercity.com/wp-content/uploads/geforce-rtx-5070-ti-partner-cards-scaled.jpg" alt="" width="550" height="360">
-<video width="640" height="360" controls>
+<h2 style="color:lightgrey">Rtx 5070: The Big Picture</h2>
+<img src="https://computercity.com/wp-content/uploads/geforce-rtx-5070-ti-partner-cards-scaled.jpg" alt="" width="930" height="540">
+<video width="930" height="556" controls>
     Supported
     <source src="motogp.mp4" type="video/mp4">
 </video>
-<article>The new Nvidia RTX 5070, a powerhouse in performance.</article>
-<h2>Specs</h2>
-<article>Boasting cores ai dlss4.0 etc the rtx 5070...</article>
+<article style="color:lightgrey">The new Nvidia RTX 5070, a powerhouse in performance.</article>
+<h2 style="color:lightgrey;">Specs</h2>
+<article style="color:lightgrey;">The RTX 5070, the most budget friendly option of Nvidia's new Blackwell die architecture. Boasting the latest 4th gen DLSS frame generation technology and 988 AI Tops. 12GB of GDDR7 VRAM will be more than enough for all the latest and greatest games also. Equipped with all new Multi frame gen and frame warp technology to make your gaming experience as seamless and smooth as possible.</article>
+<form>
+    <label for = "benchmarks">Select Benchmark</label><br>
+    <select name = "benchmarks" id = "benchmarks">
+        <option value = "5070">RTX 5070</option>
+        <option value = "5070 Ti">RTX 5070 Ti</option>
+        <option value = "5080">RTX 5080</option>
+        <option value = "5090">RTX 5090</option>
+    </select>
+</form>
+
 </main>
 
-<nav> <pre><p><a href="https://www.nvidia.com/en-eu/" target="_self">HOME</a>   <a href="https://nvidia.custhelp.com/app/chat/chat_launch/" target="_self">CONTACT</a>   <a href="https://www.nvidia.com/en-eu/about-nvidia/" target="_self">FAQ</a>   <a href="https://www.nvidia.com/en-eu/geforce/graphics-cards/" target="_self">PRODUCTS</a>   <a href="https://www.nvidia.com/en-eu/support/" target="_self">SUPPORT</a>   <a href="https://www.nvidia.com/en-eu/geforce/drivers/" target="_self">DRIVERS</a></p></pre></nav>
-<p><a href="https://www.nvidia.com/en-eu/geforce/graphics-cards/50-series/" target="_self">Visit Nvidia.com</a></p>
+<nav> <pre><p><a style="color: lightgrey;" href="https://www.nvidia.com/en-eu/" target="_self">HOME</a>   <a style="color: lightgrey;" href="https://nvidia.custhelp.com/app/chat/chat_launch/" target="_self">CONTACT</a>   <a style="color: lightgrey;" href="https://www.nvidia.com/en-eu/about-nvidia/" target="_self">FAQ</a>   <a style="color: lightgrey;" href="https://www.nvidia.com/en-eu/geforce/graphics-cards/" target="_self">PRODUCTS</a>   <a style="color: lightgrey;" href="https://www.nvidia.com/en-eu/support/" target="_self">SUPPORT</a>   <a style="color: lightgrey;" href="https://www.nvidia.com/en-eu/geforce/drivers/" target="_self">DRIVERS</a></p></pre></nav>
+<pre><p><a style="color: lightgrey;" href="https://www.nvidia.com/en-eu/geforce/graphics-cards/50-series/" target="_self">Visit Nvidia.com</a>   <a style="color: lightgrey;" href="mailto:l39773078@student.ua92.ac.uk">Email Us</a></p></pre>
 
 </html>
