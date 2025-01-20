@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel= "stylesheet" href= "webpage1css.css">
 <style>
 body {
     background-image: url(grey.jpg);
@@ -11,21 +12,25 @@ body {
 </style>
 </head>
 
+<video autoplay muted loop id="myvid">
+    <source src="motogp.mp4" type="video/mp4">
+</video>
+
 <header>
     <img src="https://th.bing.com/th?id=OIP.nqz47AVaK35tZbJydhLw9wHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" width="100" height="100">
 </header>
 <main>
-<h2 style="color:lightgrey">Rtx 5070: The Big Picture</h2>
+<h2 style="color:lightgrey">RTX 5070: THE BIG PICTURE</h2>
 <img src="https://computercity.com/wp-content/uploads/geforce-rtx-5070-ti-partner-cards-scaled.jpg" alt="" width="930" height="540">
 <video width="930" height="556" controls>
     Supported
     <source src="motogp.mp4" type="video/mp4">
 </video>
 <article style="color:lightgrey">The new Nvidia RTX 5070, a powerhouse in performance.</article>
-<h2 style="color:lightgrey;">Specs</h2>
+<h2 id= "specs" style="color:lightgrey;">SPECS</h2>
 <article style="color:lightgrey;">The RTX 5070, the most budget friendly option of Nvidia's new Blackwell die architecture. Boasting the latest 4th gen DLSS frame generation technology and 988 AI Tops. 12GB of GDDR7 VRAM will be more than enough for all the latest and greatest games also. Equipped with all new Multi frame gen and frame warp technology to make your gaming experience as seamless and smooth as possible.</article>
 <form>
-    <label for = "benchmarks">Select Benchmark</label><br>
+    <label for = "benchmarks">BENCHMARKS</label><br>
     <select name = "benchmarks" id = "benchmarks">
         <option value = "5070">RTX 5070</option>
         <option value = "5070 Ti">RTX 5070 Ti</option>
