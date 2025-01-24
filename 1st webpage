@@ -2,6 +2,9 @@
 <html>
 <head>
     <link rel= "stylesheet" href= "webpage1css.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <style>
 body {
     background-image: url(grey.jpg);
@@ -19,6 +22,16 @@ body {
 <header>
     <img src="nvidialogo.jpg" id="banner" width="100" height="100">
 </header>
+
+<div class="flex-container" id="row">
+    <div>HOME</div>
+    <div>CONTACT</div>
+    <div>FAQ</div>
+    <div>PRODUCTS</div>
+    <div>SUPPORT</div>
+    <div>DRIVERS</div>
+</div>
+
 <main>
 <h2 style="color:lightgrey" id="title">RTX 5070: THE BIG PICTURE</h2>
 <img src="geforcertx5070.jpg" alt="" width="930" height="540">
@@ -28,7 +41,7 @@ body {
 </video>
 <article style="color:lightgrey">The new Nvidia RTX 5070, a powerhouse in performance.</article>
 <h2 id= "specs" style="color:lightgrey;">SPECS</h2>
-<img src="geforcertx5070.jpg" id= "img2" width="810" height="450">
+<img src="rtx5090.jpg" id= "img2" width="810" height="450">
 <pre><article id= "article1" style="color:lightgrey; background-color: aqua;">   The RTX 5070, the most budget friendly option of Nvidia's new Blackwell die architecture. 
     Boasting the latest 4th gen DLSS frame generation technology and 988 AI Tops. 12GB of 
     GDDR7 VRAM will be more than enough for all the latest and greatest games also. DLSS
@@ -38,15 +51,17 @@ body {
     GeForce RTX™ 50 Series GPUs and fifth-generation Tensor Cores. DLSS on GeForce RTX
     is the best way to play, backed by an NVIDIA AI supercomputer in the cloud constantly 
     improving your PC’s gaming capabilities.</article></pre>
-<form>
-    <label for = "benchmarks">BENCHMARKS</label><br>
-    <select name = "benchmarks" id = "benchmarks">
-        <option value= "5070">RTX 5070</option>
-        <option value= "5070 Ti">RTX 5070 Ti</option>
-        <option value= "5080">RTX 5080</option>
-        <option value= "5090">RTX 5090</option>
-    </select>
-</form>
+
+
+<div class="dropdown">
+    <button class="dropbtn">BENCHMARKS</button>
+    <div class="dropdown-content">
+        <a href="https://www.nvidia.com/en-eu/geforce/graphics-cards/50-series/">5070</a>
+        <a href="https://www.nvidia.com/en-eu/geforce/graphics-cards/50-series/">5070 Ti</a>
+        <a href="https://www.nvidia.com/en-eu/geforce/graphics-cards/50-series/">5080</a>
+        <a href="https://www.nvidia.com/en-eu/geforce/graphics-cards/50-series/">5090</a>
+    </div>
+</div>
 
 </main>
 
