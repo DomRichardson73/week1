@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel= "stylesheet" href= "webpage1css.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IDK.com/Drivers</title>
+
+<style>
+body {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+</style>
+</head>
+
+<header>
+    <p><a href="http://127.0.0.1:3000/Home.html">
+    <img src="Logo.jpg" id="banner" height="200">
+    </a></p>
+</header>
+
+    <div class="nav-scroller py-1 mb-3 border-bottom" style="height: 30px;">
+        <nav class="nav nav-underline justify-content-between">
+          <a class="nav-item nav-link link-body-emphasis" href="http://127.0.0.1:3000/Home.html">Home</a>
+          <a class="nav-item nav-link link-body-emphasis" href="http://127.0.0.1:3000/Products.html">Products</a>
+          <a class="nav-item nav-link link-body-emphasis" href="http://127.0.0.1:3000/Drivers.html">Drivers</a>
+          <a class="nav-item nav-link link-body-emphasis" href="http://127.0.0.1:3000/Support.html">Support</a>
+        </nav>
+      </div>
+    </div>
+
+<main>
+<h2 style="color: #2196F3;">Drivers</h2>
+
+<article id= "article1" style="color:lightgrey; background-color: aqua;">The RTX 5070, the most budget friendly option of Nvidia's new Blackwell die architecture. 
+    Boasting the latest 4th gen DLSS frame generation technology and 988 AI Tops. 12GB of 
+    GDDR7 VRAM will be more than enough for all the latest and greatest games also. DLSS
+    is a revolutionary suite of neural rendering technologies that uses AI to boost FPS, reduce
+    latency, and improve image quality. The latest breakthrough, DLSS 4, brings new Multi
+    Frame Generation and enhanced Ray Reconstruction and Super Resolution, powered by
+    GeForce RTX™ 50 Series GPUs and fifth-generation Tensor Cores. DLSS on GeForce RTX
+    is the best way to play, backed by an NVIDIA AI supercomputer in the cloud constantly 
+    improving your PC’s gaming capabilities.</article>
+
+</main>
+
+<style>
+    .footer {
+        background-color: black;
+        border: 3px solid #2196F3;
+      border-style: inset outset;
+      border-radius: 20px;
+    }
+  </style>
+  
+  <footer class="footer" id="footer">
+  <nav> <pre><p><a style="color: lightgrey;" id="home" href="http://127.0.0.1:3000/Home.html" target="_self">HOME</a>   <a style="color: lightgrey;" id="products" href="http://127.0.0.1:3000/Products.html" target="_self">PRODUCTS</a>   <a style="color: lightgrey;" id="support" href="http://127.0.0.1:3000/Drivers.html" target="_self">DRIVERS</a>   <a style="color: lightgrey;" id="drivers" href="http://127.0.0.1:3000/Support.html" target="_self">SUPPORT</a></p></pre></nav>
+  <pre><p><a style="color: lightgrey;" id="nvidia" href="http://127.0.0.1:3000/Home.html" target="_self">Visit IDK.com</a>   <a style="color: lightgrey;" id ="email" href="mailto:l39773078@student.ua92.ac.uk">Email Us</a></p></pre>
+        <a href="#">Back to top</a>
+    </footer>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
