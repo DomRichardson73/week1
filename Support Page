@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel= "stylesheet" href= "webpage1css.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IDK.com/Support</title>
+
+<style>
+body {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+</style>
+</head>
+
+<header>
+    <p><a href="http://127.0.0.1:3000/Home.html">
+    <img src="Logo.jpg" id="banner" height="200">
+    </a></p>
+</header>
+
+    <div class="nav-scroller py-1 mb-3 border-bottom" style="height: 30px;">
+        <nav class="nav nav-underline justify-content-between">
+          <a class="nav-item nav-link link-body-emphasis" href="http://127.0.0.1:3000/Home.html">Home</a>
+          <a class="nav-item nav-link link-body-emphasis" href="http://127.0.0.1:3000/Products.html">Products</a>
+          <a class="nav-item nav-link link-body-emphasis" href="http://127.0.0.1:3000/Drivers.html">Drivers</a>
+          <a class="nav-item nav-link link-body-emphasis" href="http://127.0.0.1:3000/Support.html">Support</a>
+        </nav>
+      </div>
+    </div>
+
+<main>
+
+
+
+  <div class="row">
+    <div class="leftcolumn2" style="min-height: 434px;">
+      <div class="card">
+        <h2>How to Install Your Graphics Card</h2>
+        <div class="fakeimg" style="height:20px;"></div>
+        <p></p>
+        <ol>
+          <li style="color: #2196F3; font-family: Arial, Helvetica, sans-serif ; padding: 8px;">Step 1: Remove the Expansion Slot Plates from the Case...</li>
+          <li style="color: #2196F3; font-family: Arial, Helvetica, sans-serif ; padding: 8px;">Step 2: Open up the PCIe x16 Slot on the Motherboard...</li>
+          <li style="color: #2196F3; font-family: Arial, Helvetica, sans-serif ; padding: 8px;">Step 3: Slot the Graphics Card into the PCIe x16 slot...</li>
+          <li style="color: #2196F3; font-family: Arial, Helvetica, sans-serif ; padding: 8px;">Step 4: Attach the Power Supply Connectors to the card...</li>
+          <li style="color: #2196F3; font-family: Arial, Helvetica, sans-serif ; padding: 8px;">Step 5: Connect Your Monitors to the GPU port and Boot the PC...</li>
+          <li style="color: #2196F3; font-family: Arial, Helvetica, sans-serif ; padding: 8px;">Step 6: Install or Update Drivers accordingly...</li>
+        </ol>
+      </div>
+    </div>
+    <div class="rightcolumn2">
+      <div class="card">
+        <h2>Contact Number</h2>
+        <div class="fakeimg" style="height:100px;">0121 123 123</div>
+        <h2>Email Us</h2>
+        <div class="fakeimg" style="height:20px;">MyEmail.com</div>
+      </div>
+      <div class="card">
+
+</main>
+
+<style>
+  .footer {
+      background-color: black;
+      border: 3px solid #2196F3;
+    border-style: inset outset;
+    border-radius: 20px;
+  }
+</style>
+
+<footer class="footer" id="footer">
+<nav> <pre><p><a style="color: lightgrey;" id="home" href="http://127.0.0.1:3000/Home.html" target="_self">HOME</a>   <a style="color: lightgrey;" id="products" href="http://127.0.0.1:3000/Products.html" target="_self">PRODUCTS</a>   <a style="color: lightgrey;" id="support" href="http://127.0.0.1:3000/Drivers.html" target="_self">DRIVERS</a>   <a style="color: lightgrey;" id="drivers" href="http://127.0.0.1:3000/Support.html" target="_self">SUPPORT</a></p></pre></nav>
+<pre><p><a style="color: lightgrey;" id="nvidia" href="http://127.0.0.1:3000/Home.html" target="_self">Visit IDK.com</a>   <a style="color: lightgrey;" id ="email" href="mailto:l39773078@student.ua92.ac.uk">Email Us</a></p></pre>
+      <a href="#">Back to top</a>
+  </footer>
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
