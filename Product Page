@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel= "stylesheet" href= "webpage1css.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IDK.com/Products</title>
+
+<style>
+  body {
+      background-color: black;
+      background-repeat: no-repeat;
+      background-attachment: fixed; 
+      background-size: 100% 100%;
+  }
+  </style>
+</head>
+
+<header>
+    <p><a href="http://127.0.0.1:3000/Home.html">
+    <img src="Logo.jpg" id="banner" height="200">
+    </a></p>
+</header>
+
+    <div class="nav-scroller py-1 mb-3 border-bottom" style="height: 30px;">
+        <nav class="nav nav-underline justify-content-between">
+          <a class="nav-item nav-link link-body-emphasis" href="http://127.0.0.1:3000/Home.html">Home</a>
+          <a class="nav-item nav-link link-body-emphasis" href="http://127.0.0.1:3000/Products.html">Products</a>
+          <a class="nav-item nav-link link-body-emphasis" href="http://127.0.0.1:3000/Drivers.html">Drivers</a>
+          <a class="nav-item nav-link link-body-emphasis" href="http://127.0.0.1:3000/Support.html">Support</a>
+        </nav>
+      </div>
+    </div>
+
+<main>
+
+<body>
+
+    <div class="header">
+      <h2>Performance.</h2>
+      <h2 id="Redefined">Redefined.</h2>
+    </div>
+    
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card">
+          <h2>The IDK 9090</h2>
+          <h5>Meet your new hero, Feb 21, 2025</h5>
+          <div class="fakeimg" style="height:20px;"></div>
+          <img src="idk9090.jpg" alt="ITX 9090" width="60%">
+          <p>The IDK 9090</p>
+          <p>Welcome the IDK 9090: The dawn of a new age for graphic technology. This beast will power you to new heights. Capable of astonishing performance in all games. 8k ray traced visuals at 360hz with path tracing on NetThug 3088. No problem. 48GB of GDDR9 VRAM is far too much, but who cares. You'll be wishing you had it when those game developers don't optimise PC games properly. Core clock speeds of over 4000Mhz, why not. The 9090 has a max TDP of nearly 2000W, so you may need a whole extra electric circuit to power it. But that's not our problem, we just want your money after all. Maybe sell a kidney or two, we know you need at least one, but again, not our problem once you've bought your new, shiny ITX 9090 is it?</p>
+        </div>
+        <div class="card">
+          <h2>The IDK 9080</h2>
+          <h5>Coming Feb 21, 2025</h5>
+          <div class="fakeimg" style="height:20px;"></div>
+          <img src="idk9080.png" alt="ITX 9090" width="60%">
+          <p>The IDK 9080</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </div>
+        <div class="card">
+          <h2>The IDK 9070</h2>
+          <h5>Coming Feb 21, 2025</h5>
+          <div class="fakeimg" style="height:20px;"></div>
+          <img src="idk9060.jpg" alt="ITX 9090" width="60%">
+          <p>The IDK 9070</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </div><div class="card">
+          <h2>The IDK 9060</h2>
+          <h5>Coming Feb 21, 2025</h5>
+          <div class="fakeimg" style="height:20px;"></div>
+          <img src="idk9060.jpg" alt="ITX 9090" width="60%">
+          <p>The IDK 9060</p>
+          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        </div>
+      </div>
+      <div class="rightcolumn">
+        <div class="card">
+          <h2>About Us</h2>
+          <div class="fakeimg" style="height:100px;">Born out of a need to fund our crippling shiny jacket addiction, we saw what everyone else was doing in the tech industry and saw an opportunity to crush all of them into dust. We are IDK</div>
+        </div>
+        <div class="card">
+          <h3>Helpful Links</h3>
+          <div class="fakeimg" style="height:0px;" href="http://127.0.0.1:3000/Home.html">Home</div><br>
+          <a style="height:100px;" style="color: lightgrey;" id="home" href="http://127.0.0.1:3000/Home.html" target="_self">click here...</a><br>
+          <div class="fakeimg" style="height:0px;" href="http://127.0.0.1:3000/Drivers.html">Drivers</div><br>
+          <a style="height:100px;" style="color: lightgrey;" id="drivers" href="http://127.0.0.1:3000/Drivers.html" target="_self">click here...</a><br>
+          <div class="fakeimg" style="height:0px;" href="http://127.0.0.1:3000/Support.html">Support</div><br>
+          <a style="height:100px;" style="color: lightgrey;" id="support" href="http://127.0.0.1:3000/Support.html" target="_self">click here...</a><br>
+          <div class="fakeimg" style="height:0px;" href="http://127.0.0.1:3000/Home.html">Email</div><br>
+          <a style="height:100px;" style="color: lightgrey;" id="email" href="mailto:l39773078@student.ua92.ac.uk" target="_self">click here...</a><br>
+    </div>
+    
+    </body>
+
+</main>
+
+<style>
+  .footer {
+      background-color: black;
+      border: 3px solid #2196F3;
+    border-style: inset outset;
+    border-radius: 20px;
+  }
+</style>
+
+<footer class="footer" id="footer">
+<nav> <pre><p><a style="color: lightgrey;" id="home" href="http://127.0.0.1:3000/Home.html" target="_self">HOME</a>   <a style="color: lightgrey;" id="products" href="http://127.0.0.1:3000/Products.html" target="_self">PRODUCTS</a>   <a style="color: lightgrey;" id="support" href="http://127.0.0.1:3000/Drivers.html" target="_self">DRIVERS</a>   <a style="color: lightgrey;" id="drivers" href="http://127.0.0.1:3000/Support.html" target="_self">SUPPORT</a></p></pre></nav>
+<pre><p><a style="color: lightgrey;" id="nvidia" href="http://127.0.0.1:3000/Home.html" target="_self">Visit IDK.com</a>   <a style="color: lightgrey;" id ="email" href="mailto:l39773078@student.ua92.ac.uk">Email Us</a></p></pre>
+      <a href="#">Back to top</a>
+  </footer>
+  <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
