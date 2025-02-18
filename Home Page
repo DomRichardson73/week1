@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel= "stylesheet" href= "webpage1css.css">
+
+<meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1.0">
+<title>IDK.com/Home</title>
+
+<style>
+body {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+}
+</style>
+</head>
+
+<video autoplay muted loop id="myvid">
+    <source src="Logo.mp4" type="video/mp4">
+</video>
+
+<header>
+    <p><a href="http://127.0.0.1:3000/Home.html">
+    <img src="Logo.jpg" id="banner" height="200" alt="">
+    </a></p>
+</header>
+
+    <div class="nav-scroller py-1 mb-3 border-bottom" style="height: 30px;">
+        <nav class="nav nav-underline justify-content-between">
+          <a class="nav-item nav-link link-body-emphasis" href="http://127.0.0.1:3000/Home.html">Home</a>
+          <a class="nav-item nav-link link-body-emphasis" href="http://127.0.0.1:3000/Products.html">Products</a>
+          <a class="nav-item nav-link link-body-emphasis" href="http://127.0.0.1:3000/Drivers.html">Drivers</a>
+          <a class="nav-item nav-link link-body-emphasis" href="http://127.0.0.1:3000/Support.html">Support</a>
+        </nav>
+      </div>
+
+<main>
+<h2 style="color:lightgrey">Modern Design.</h2><h2 style="color: #2196F3;">For All. Forever.</h2>
+<img src="4090.png" alt="" width="900" height="540">
+<video width="900" height="556" controls>
+    Supported
+    <source src="rtx5000.mp4" type="video/mp4">
+</video>
+<article style="color:lightgrey">Our Mission</article>
+    <h2 style="color:lightgrey">All Power.</h2><h2 style="color: #2196F3;">Zero Responsibility.</h2>
+<img src="graphicscard7.png" id= "img2" width="810" height="450" alt="">
+<article id= "article1" style="color:lightgrey; background-color: aqua;">Our latest graphics cards offers new, previously unheard of performance levels, developed in house for unparalelled visuals and frame rates.
+    The IDK 9060, the most budget friendly option of our new architecture offers gamers stunning visuals at the lowest possible price giving you the best possible value for money. 
+    The cutting-edge IDK 9090 however, boasts the latest frame Generation technology and 48GB of 
+    GDDR9 VRAM, which will be more than enough for all the latest and even the most demanding of games. Frame generation
+    is a revolutionary suite of neural rendering technologies that uses AI to boost FPS, reduce
+    latency, and improve image quality. The latest breakthrough, brings new Multi
+    Frame Generation and enhanced Ray Reconstruction and Super Resolution, powered by
+    IDKs 90 Series GPUs and next-generation Tensor and RT Cores. Frame Generation on IDK
+    is the best way to play, backed by an AI supercomputer in the cloud constantly 
+    improving your PC’s gaming capabilities.
+    
+</article>
+
+
+<div class="dropdown">
+    <button class="dropbtn">The Line-Up</button>
+    <div class="dropdown-content">
+        <a href="http://127.0.0.1:3000/Products.html">9090</a>
+        <a href="http://127.0.0.1:3000/Products.html">9080</a>
+        <a href="http://127.0.0.1:3000/Products.html">9070</a>
+        <a href="http://127.0.0.1:3000/Products.html">9060</a>
+    </div>
+</div>
+
+</main>
+
+  <footer class="footer" id="footer">
+  <nav><pre><a style="color: lightgrey;" id="home" href="http://127.0.0.1:3000/Home.html" target="_self">HOME</a>   <a style="color: lightgrey;" id="products" href="http://127.0.0.1:3000/Products.html" target="_self">PRODUCTS</a>   <a style="color: lightgrey;" id="support" href="http://127.0.0.1:3000/Drivers.html" target="_self">DRIVERS</a>   <a style="color: lightgrey;" id="drivers" href="http://127.0.0.1:3000/Support.html" target="_self">SUPPORT</a></pre></nav>
+  <pre><a style="color: lightgrey;" id="idk" href="http://127.0.0.1:3000/Home.html" target="_self">Visit IDK.com</a>   <a style="color: lightgrey;" id ="email" href="mailto:l39773078@student.ua92.ac.uk">Email Us</a></pre>
+        <a href="#">Back to top</a>
+    </footer>
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
